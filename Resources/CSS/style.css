@@ -1,5 +1,6 @@
         /* beginning of header styles - top of website */
 header {
+  background-color: white;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
@@ -41,10 +42,21 @@ nav span {
 a {
   color: black;
 }
-
         /* temporary border for all divs - for visabilty */
 div {
   border: 1px solid black;
 }
+        /* beginnging of content & column styles */
+.content {
+  padding-top: 90px;
+  display: flex;
+}
 
-        /* beginnging of news articles styles */
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column.large {
+  width: 630px;
+}
