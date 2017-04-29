@@ -1,0 +1,50 @@
+        /* beginning of header styles - top of website */
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+
+  display: flex;
+  align-items: center;
+}
+        /* header - logo image and title style */
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+.logo img {
+  margin-right: 12px;
+}
+
+.logo span {
+  color: mediumaquamarine;
+}
+        /* header - menu (nav) and link styles */
+header nav {
+  padding-right: 40px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
+  color: black;
+}
+
+        /* temporary border for all divs - for visabilty */
+div {
+  border: 1px solid black;
+}
+
+        /* beginnging of news articles styles */
