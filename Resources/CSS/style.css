@@ -47,6 +47,7 @@ div {
   border: 1px solid black;
 }
         /* beginnging of content & column styles */
+        /* content layout and flex styles */
 .content {
   padding-top: 90px;
   display: flex;
@@ -68,4 +69,41 @@ div {
 
 .column.small {
   width: 240px;
+}
+        /* background images and headline styles */
+.image-content {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  text-align: center;
+
+  height: 300px;
+
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.lead-story .image-content {
+  background-image: url("../images/img-story-main.png");
+  font-size: 40px;
+}
+
+.fall-cancelled.image-content {
+  background-image: url("../images/img-story-2.png")
+}
+
+.pop-culture.image-content {
+  background-image: url("../images/img-story-3.png");
+}
+
+.cat-ceo.image-content {
+  background-image: url("../images/img-story-1.png");
+}
+        /* story text style */
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
